@@ -1,22 +1,28 @@
-**Problem Statement:**
-A business is planning to procure 10,000 RTX4080 GPUs for a data center setup. The goal is to analyze patterns in pricing data from Amazon to determine the optimal days for purchasing the GPUs, with an emphasis on cost optimization and vendor selection based on star ratings.
+# Data Science & Machine Learning Project Three
+Welcome to the Data Science & Machine Learning project repository at Xccelerate. This repository serves as a hub for hands-on projects aligned with the curriculum framework.
 
-**Explanation:**
-This project involves scraping pricing data for RTX4080 GPUs from Amazon over a 2-week period. The data will be used to identify patterns that can assist in deciding the most cost-effective days for purchasing the GPUs and selecting a reliable vendor.
+## Project Overview:
+Each project is housed within its designated branch in this repository, segregated by the project titles for clear identification.
+Students are encouraged to create their repositories for individual projects and share their work independently.
+## Guidelines:
+### Accessing Projects:
+- Clone this repository to access project branches locally.
+### Project Structure:
+- Each project branch is equipped with a structured template containing code files and a README.
+### Creating Individual Repositories:
+- Set up separate repositories for each project in your GitHub account.
+### Committing Work:
+- Avoid committing your project work directly to this repository. Store your project code in your personal repositories.
+## Instructions:
+1. Choose one project from the project list to work on.
+2. Refer to the README within each project branch for project specifics and guidance.
+3. Develop your chosen project within your GitHub account.
+4. Utilize GitHub for effective project management and sharing.
 
-**Steps:**
-1. **Scrape Data:** Utilize web scraping techniques to gather pricing data for `RTX4080` GPUs from Amazon while accounting for captcha challenges.
-2. **Clean Data:** Process the scraped data to ensure consistency and accuracy for analysis.
-3. **Store Data:** Store the cleaned data in a suitable format for further analysis.
-4. **Model:** Apply exploratory data analysis (EDA) and machine learning modeling to identify the best price for purchasing the GPUs and recommend a vendor based on star ratings and other relevant metrics.
+For queries or support, do not hesitate to contact your instructor. Immerse yourself in the realm of data science and machine learning while embarking on these engaging projects!
 
-**Business Question/Simulation:**
-Answer the following questions:
-- What is the best price for purchasing 10,000 RTX4080 GPUs based on the analysis?
-- Which vendor might be a good choice for procurement, considering star ratings and other factors?
-
-**Metrics for Quality:**
-Metrics to judge the quality of output may include:
-- Cost savings achieved through optimal purchase timing.
-- Accuracy of vendor recommendations based on star ratings and other criteria.
-- Model performance in predicting optimal GPU procurement price.
+Project List:
+1. Procurement Optimization: GPU Purchase
+2. Stock Price Prediction and Trading Strategy
+3. Food Recommendation Engine
+4. Job and Skill Matching System

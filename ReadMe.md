@@ -1,5 +1,3 @@
-Readme File 3:
-
 **Problem Statement:**
 Develop a food recommendation engine by scraping data from websites like OpenRice to gather information on various restaurants including types of food served, restaurant names, ratings, locations, and more. Utilize this data to build a recommendation engine that can suggest restaurants based on user criteria such as desired cuisine and location, while ranking them according to ratings and other factors.
 

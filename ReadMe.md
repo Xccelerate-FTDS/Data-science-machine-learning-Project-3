@@ -1,22 +1,24 @@
+Readme File 3:
+
 **Problem Statement:**
-Develop a stock price prediction model to strategize buy/sell decisions for a portfolio consisting of 10 selected stocks from various industries. Utilize historical daily data obtained from the AlphaVantage API to run a simulation for 2 weeks, starting with $10,000 cash and executing trades based on the prediction model.
+Develop a food recommendation engine by scraping data from websites like OpenRice to gather information on various restaurants including types of food served, restaurant names, ratings, locations, and more. Utilize this data to build a recommendation engine that can suggest restaurants based on user criteria such as desired cuisine and location, while ranking them according to ratings and other factors.
 
 **Explanation:**
-This project involves utilizing historical daily stock price data obtained from AlphaVantage API to predict stock price movements and formulate buy/sell strategies for a diversified portfolio comprising the following 10 stocks from different industries - Apple Inc. (AAPL), Microsoft Corporation (MSFT), Johnson & Johnson (JNJ), Pfizer Inc. (PFE), The Procter & Gamble Company (PG), The Coca-Cola Company (KO), JPMorgan Chase & Co. (JPM), Visa Inc. (V), Exxon Mobil Corporation (XOM), and Chevron Corporation (CVX). The simulation will track trading decisions and calculate the final portfolio value and strategy Sharpe ratio.
+This project involves scraping restaurant data from websites like OpenRice to create a comprehensive dataset containing details such as food types, restaurant names, ratings, locations, and additional attributes. The data will be used to develop a data-driven recommendation engine that can provide personalized restaurant suggestions based on user preferences and optimize rankings based on ratings and other relevant criteria. To add a challenging aspect, advanced data modeling techniques will be implemented to enhance the recommendation engine's performance.
 
 **Steps:**
-1. **Get API Key:** Obtain an API key from AlphaVantage to access historical daily stock price data.
-2. **Download Data:** Retrieve historical daily data for the 10 selected stocks from the API.
-3. **Simulation:** Create a simulation environment to execute buy/sell decisions based on stock price predictions over a 2-week period.
-4. **Evaluate Strategy:** Calculate the final portfolio value (cash + current price of stocks * positions) and determine the Sharpe ratio of the trading strategy.
+1. **Scrape Data:** Extract restaurant information from websites like OpenRice, capturing essential details such as food types, restaurant names, ratings, and locations.
+2. **Clean Data:** Pre-process the scraped data to ensure consistency and accuracy for modeling.
+3. **Data Modeling:** Implement advanced data modeling techniques to develop a robust recommendation engine for suggesting restaurants based on user criteria.
+4. **Recommendation System:** Create a personalized recommendation system that factors in cuisine preferences, location, and other user inputs to suggest top-rated restaurants.
 
 **Business Question/Simulation:**
-Answer the following questions:
-- What is the final portfolio value after 2 weeks of trading based on the prediction strategy?
-- What is the Sharpe ratio of the trading strategy, indicating risk-adjusted performance?
+The project aims to answer questions such as:
+- How effective is the recommendation engine in suggesting suitable restaurants based on user preferences?
+- Can the system accurately rank recommended restaurants according to ratings and other relevant criteria?
 
 **Metrics for Quality:**
-Metrics to assess the quality of the output may include:
-- Final portfolio value indicating the effectiveness of the prediction strategy.
-- Sharpe ratio reflecting the risk-adjusted returns of the trading strategy.
-- Accuracy of stock price predictions and corresponding buy/sell decisions.
+Metrics to evaluate the recommendation engine's quality may encompass:
+- Precision and recall of recommended restaurants based on user preferences.
+- User satisfaction levels with the suggested restaurant choices.
+- Accuracy of restaurant rankings in alignment with ratings and user feedback.
